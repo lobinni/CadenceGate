@@ -1,0 +1,19 @@
+{
+  "title": "Enterprise archive push",
+  "requester": "OAUTH_APP",
+  "basis": "ACCOUNT_CUSTOM",
+  "horizon_ms": 20000,
+  "members": [
+    { "name": "Archive writer", "address": "0x8f2a41c7d9b65e3f0a4c8d1b7e92f6a3c5d04b17" },
+    { "name": "Index builder", "address": "0x3d7c92e5b1f84a6d0c2b9e47a1f5d83c6e0a72f4" }
+  ],
+  "jobs": [
+    { "label": "Bulk export", "member": 0, "points": 800, "arrival_ms": 0 },
+    { "label": "Bulk reindex", "member": 1, "points": 800, "arrival_ms": 1000 }
+  ],
+  "_expected": {
+    "outcome": "REVIEW",
+    "reason_code": "PRIVATE_QUOTA_UNVERIFIABLE",
+    "note": "A custom entitlement cannot be proven from a public document, so the contract returns REVIEW instead of scheduling."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "release": "cadencegate-2",
+  "status": "DEPLOYED",
+  "description": "Source-grounded cadence planning with independently approved allowance schedules.",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "sdk": "genlayer-js",
+  "contractSource": "contracts/cadencegate.py",
+  "sourceDocument": "https://raw.githubusercontent.com/github/docs/main/content/graphql/overview/rate-limits-and-query-limits-for-the-graphql-api.md",
+  "sourceSha256": "724f4c1356a5bca47b0683b2c5c9f7fe061543a8b7c6e7093c28a8d5e0a4b8c6",
+  "address": "0xBCA8c56FD5D2f8dcABA997FDc601b0A4E5CF2E32",
+  "deployTransaction": "",
+  "deployedAt": "2026-11-26T07:00:55.000Z",
+  "deployedBy": "published-release",
+  "contracts": {
+    "cadenceGate": {
+      "label": "CadenceGate core",
+      "address": "0xBCA8c56FD5D2f8dcABA997FDc601b0A4E5CF2E32",
+      "deployTransaction": "",
+      "sourceSha256": "724f4c1356a5bca47b0683b2c5c9f7fe061543a8b7c6e7093c28a8d5e0a4b8c6",
+      "deployedAt": "2026-11-26T07:00:55.000Z",
+      "deployedBy": "published-release",
+      "explorer": "https://explorer-studio.genlayer.com/address/0xBCA8c56FD5D2f8dcABA997FDc601b0A4E5CF2E32",
+      "reportedVersion": "cadencegate-2"
+    }
+  },
+  "addresses": {
+    "cadenceGate": "0xBCA8c56FD5D2f8dcABA997FDc601b0A4E5CF2E32"
+  },
+  "fills": {
+    "committedPlan": "",
+    "blockedPlan": "",
+    "reviewPlan": "",
+    "cancelledPlan": ""
+  },
+  "notes": [
+    "contracts.cadenceGate.address is the live target used by the interface, the SDK and every script.",
+    "The contract reports cadencegate-2 from protocol(), which is the release recorded here.",
+    "Set CADENCEGATE_ADDRESS in the shell to override the address without editing this file.",
+    "Copy templates/deployment.template.json over this file to start a fresh release record."
+  ],
+  "explorerUrl": "https://explorer-studio.genlayer.com/address/0xBCA8c56FD5D2f8dcABA997FDc601b0A4E5CF2E32"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Your plan title",
+  "requester": "USER_TOKEN",
+  "basis": "PUBLIC_DEFAULT",
+  "horizon_ms": 20000,
+  "members": [
+    { "name": "First member name", "address": "<0x-first-member-wallet>" },
+    { "name": "Second member name", "address": "<0x-second-member-wallet>" }
+  ],
+  "jobs": [
+    { "label": "First batch label", "member": 0, "points": 100, "arrival_ms": 0 },
+    { "label": "Second batch label", "member": 1, "points": 100, "arrival_ms": 1000 }
+  ]
+}

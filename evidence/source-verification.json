@@ -1,0 +1,20 @@
+{
+  "release": "cadencegate-2",
+  "verifiedAt": "2026-11-26T07:00:55.000Z",
+  "contract": {
+    "path": "contracts/cadencegate.py",
+    "sha256": "724f4c1356a5bca47b0683b2c5c9f7fe061543a8b7c6e7093c28a8d5e0a4b8c6",
+    "address": "0xBCA8c56FD5D2f8dcABA997FDc601b0A4E5CF2E32",
+    "chainId": 61999
+  },
+  "sourceDocument": {
+    "url": "https://raw.githubusercontent.com/github/docs/main/content/graphql/overview/rate-limits-and-query-limits-for-the-graphql-api.md",
+    "reason": "Fixed public document. The contract rejects a read that does not contain both required phrases."
+  },
+  "method": "sha256 over the contract bytes, compared with the value recorded in deployment.json",
+  "notes": [
+    "The live contract reports cadencegate-2 from protocol(), which is the release this digest belongs to.",
+    "Rerun with: python3 -c \"import hashlib,pathlib;print(hashlib.sha256(pathlib.Path('contracts/cadencegate.py').read_bytes()).hexdigest())\"",
+    "scripts/verify.ts performs the same comparison and refuses to pass on a mismatch."
+  ]
+}

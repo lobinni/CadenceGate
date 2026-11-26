@@ -1,0 +1,24 @@
+{
+  "title": "Weekly reporting sweep",
+  "requester": "USER_TOKEN",
+  "basis": "PUBLIC_DEFAULT",
+  "horizon_ms": 20000,
+  "members": [
+    { "name": "Reporting service", "address": "0x8f2a41c7d9b65e3f0a4c8d1b7e92f6a3c5d04b17" },
+    { "name": "Analytics worker", "address": "0x3d7c92e5b1f84a6d0c2b9e47a1f5d83c6e0a72f4" }
+  ],
+  "jobs": [
+    { "label": "Morning reconcile", "member": 0, "points": 900, "arrival_ms": 0 },
+    { "label": "Summary digest", "member": 1, "points": 1200, "arrival_ms": 1500 },
+    { "label": "Evening reconcile", "member": 0, "points": 900, "arrival_ms": 3000 }
+  ],
+  "_expected": {
+    "outcome": "READY",
+    "allowance_points": 5000,
+    "window_ms": 3600000,
+    "admit_ms": [0, 1500, 3000],
+    "finish_ms": 3000,
+    "remaining_points": 2000,
+    "note": "Replace both member addresses with wallets you control, then seal it from the planner."
+  }
+}

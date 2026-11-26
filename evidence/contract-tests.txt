@@ -1,0 +1,34 @@
+test_digest_is_stable_and_key_order_free (test_contract.Digests.test_digest_is_stable_and_key_order_free) ... ok
+test_rejects_batch_with_unknown_member (test_contract.InputGuards.test_rejects_batch_with_unknown_member) ... ok
+test_rejects_duplicate_name (test_contract.InputGuards.test_rejects_duplicate_name) ... ok
+test_rejects_duplicate_wallet (test_contract.InputGuards.test_rejects_duplicate_wallet) ... ok
+test_rejects_member_without_batch (test_contract.InputGuards.test_rejects_member_without_batch) ... ok
+test_rejects_non_hex_address (test_contract.InputGuards.test_rejects_non_hex_address) ... ok
+test_rejects_one_member (test_contract.InputGuards.test_rejects_one_member) ... ok
+test_rejects_out_of_range_window (test_contract.InputGuards.test_rejects_out_of_range_window) ... ok
+test_rejects_short_title (test_contract.InputGuards.test_rejects_short_title) ... ok
+test_rejects_unknown_basis (test_contract.InputGuards.test_rejects_unknown_basis) ... ok
+test_rejects_unknown_requester_class (test_contract.InputGuards.test_rejects_unknown_requester_class) ... ok
+test_valid_specification_passes (test_contract.InputGuards.test_valid_specification_passes) ... ok
+test_known_policy_is_accepted (test_contract.PolicyValidation.test_known_policy_is_accepted) ... ok
+test_number_must_appear_in_the_quote (test_contract.PolicyValidation.test_number_must_appear_in_the_quote) ... ok
+test_private_basis_is_refused (test_contract.PolicyValidation.test_private_basis_is_refused) ... ok
+test_ungrounded_quote_is_refused (test_contract.PolicyValidation.test_ungrounded_quote_is_refused) ... ok
+test_unknown_policy_keeps_only_reason (test_contract.PolicyValidation.test_unknown_policy_keeps_only_reason) ... ok
+test_window_word_must_match_the_label (test_contract.PolicyValidation.test_window_word_must_match_the_label) ... ok
+test_arrival_delays_admission_within_the_listing (test_contract.Scheduler.test_arrival_delays_admission_within_the_listing) ... ok
+test_batch_larger_than_allowance_is_over_capacity (test_contract.Scheduler.test_batch_larger_than_allowance_is_over_capacity) ... ok
+test_bucket_starts_full (test_contract.Scheduler.test_bucket_starts_full) ... ok
+test_credit_conservation_across_rows (test_contract.Scheduler.test_credit_conservation_across_rows) ... ok
+test_listing_order_is_the_fifo_order (test_contract.Scheduler.test_listing_order_is_the_fifo_order)
+The owner's listing decides admission order; arrivals never reorder it. ... ok
+test_minimum_delay_is_honoured (test_contract.Scheduler.test_minimum_delay_is_honoured) ... ok
+test_ready_plan_admits_immediately (test_contract.Scheduler.test_ready_plan_admits_immediately) ... ok
+test_review_when_policy_is_unknown (test_contract.Scheduler.test_review_when_policy_is_unknown) ... ok
+test_schedule_is_deterministic (test_contract.Scheduler.test_schedule_is_deterministic) ... ok
+test_window_rollover_produces_exact_excess (test_contract.Scheduler.test_window_rollover_produces_exact_excess) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.002s
+
+OK

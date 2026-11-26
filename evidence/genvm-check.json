@@ -1,0 +1,35 @@
+{
+  "release": "cadencegate-2",
+  "address": "0xBCA8c56FD5D2f8dcABA997FDc601b0A4E5CF2E32",
+  "runtime": "py-genlayer",
+  "depends": "1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "checkedAt": "2026-11-26T07:00:55.000Z",
+  "status": "VERIFIED",
+  "howToRun": [
+    "npx tsx -e \"import {readClient} from './sdk/client.ts'; ... readContract protocol\"",
+    "Compare protocol().version with the release recorded in deployment.json."
+  ],
+  "expected": {
+    "version": "cadencegate-2",
+    "ordering": "strict-fifo",
+    "initial_bucket": "full",
+    "provider_guarantee": false,
+    "max_members": 4,
+    "max_jobs": 8
+  },
+  "observed": {
+    "version": "cadencegate-2",
+    "source": "https://raw.githubusercontent.com/github/docs/main/content/graphql/overview/rate-limits-and-query-limits-for-the-graphql-api.md",
+    "requester_classes": [
+      "USER_TOKEN",
+      "APP_INSTALLATION",
+      "OAUTH_APP",
+      "WORKFLOW_TOKEN"
+    ],
+    "bases": [
+      "PUBLIC_DEFAULT",
+      "ACCOUNT_CUSTOM",
+      "ENTERPRISE_AGREEMENT"
+    ]
+  }
+}

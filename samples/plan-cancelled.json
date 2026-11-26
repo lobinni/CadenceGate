@@ -1,0 +1,18 @@
+{
+  "title": "Daily digest refresh",
+  "requester": "USER_TOKEN",
+  "basis": "PUBLIC_DEFAULT",
+  "horizon_ms": 15000,
+  "members": [
+    { "name": "Digest writer", "address": "0x8f2a41c7d9b65e3f0a4c8d1b7e92f6a3c5d04b17" },
+    { "name": "Digest reader", "address": "0x3d7c92e5b1f84a6d0c2b9e47a1f5d83c6e0a72f4" }
+  ],
+  "jobs": [
+    { "label": "Collect headlines", "member": 0, "points": 400, "arrival_ms": 0 },
+    { "label": "Render digest", "member": 1, "points": 400, "arrival_ms": 2000 }
+  ],
+  "_expected": {
+    "outcome": "CANCELLED",
+    "note": "Seal it, then have any named member withdraw it before commitment to exercise the cancel path."
+  }
+}

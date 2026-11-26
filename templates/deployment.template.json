@@ -1,0 +1,35 @@
+{
+  "release": "cadencegate-2",
+  "status": "AWAITING_DEPLOYMENT",
+  "description": "Source-grounded cadence planning with independently approved allowance schedules.",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "sdk": "genlayer-js",
+  "contractSource": "contracts/cadencegate.py",
+  "sourceDocument": "https://raw.githubusercontent.com/github/docs/main/content/graphql/overview/rate-limits-and-query-limits-for-the-graphql-api.md",
+  "sourceSha256": "",
+  "address": "",
+  "deployTransaction": "",
+  "deployedAt": "",
+  "deployedBy": "",
+  "contracts": {
+    "cadenceGate": {
+      "label": "CadenceGate core",
+      "address": "<0x-deployed-contract-address>",
+      "deployTransaction": "",
+      "sourceSha256": "",
+      "deployedAt": "",
+      "deployedBy": ""
+    }
+  },
+  "addresses": {
+    "cadenceGate": "<0x-deployed-contract-address>"
+  },
+  "fills": {
+    "committedPlan": "<sealing-wallet>:<plan-reference>",
+    "blockedPlan": "<sealing-wallet>:<plan-reference>",
+    "reviewPlan": "<sealing-wallet>:<plan-reference>",
+    "cancelledPlan": "<sealing-wallet>:<plan-reference>"
+  },
+  "notes": []
+}

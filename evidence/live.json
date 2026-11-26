@@ -1,0 +1,17 @@
+{
+  "deployment": {
+    "address": "0xBCA8c56FD5D2f8dcABA997FDc601b0A4E5CF2E32",
+    "release": "cadencegate-2",
+    "chainId": 61999,
+    "rpc": "https://studio.genlayer.com/api",
+    "explorer": "https://explorer-studio.genlayer.com/address/0xBCA8c56FD5D2f8dcABA997FDc601b0A4E5CF2E32"
+  },
+  "recordedAt": null,
+  "operations": [],
+  "finalPlan": null,
+  "notes": [
+    "This file is written by `npx tsx scripts/live.ts` during a walkthrough.",
+    "It starts empty on purpose: nothing here is fabricated. Fill it by running the walkthrough in docs/LIVE-TESTING.md.",
+    "Once it holds operations, `npx tsx scripts/verify.ts` replays every one of them against the live chain."
+  ]
+}

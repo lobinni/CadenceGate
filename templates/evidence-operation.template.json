@@ -1,0 +1,16 @@
+{
+  "name": "<step-name-for-example-seal-assess-approve-cancel>",
+  "pending": {
+    "name": "<step-name>",
+    "planId": "<sealing-wallet>:<plan-reference>",
+    "hash": "<transaction-hash-returned-by-the-wallet>",
+    "method": "seal",
+    "params": {
+      "tag": "<plan-reference>",
+      "payload": "<the-exact-payload-you-signed>"
+    },
+    "expectedRevision": 0,
+    "expectedError": null
+  },
+  "verified": false
+}
